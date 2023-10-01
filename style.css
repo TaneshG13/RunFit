@@ -291,8 +291,122 @@ nav .container ul li a:hover{
 
 .contact .container .left {
     width: 60%;
+    align-items: center;
+    padding-top: 5%;
 }
 
 textarea {
     resize: none;
+}
+
+.contacts img{
+    width: 50px;
+    margin: 20px 30px 0 0;
+}
+
+.contact p{
+    margin: 20px 30px 0 0;
+}
+
+form{
+    background-color: var(--color-light-gray);
+    color: var(--color-black-shade);
+    padding: 50px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+}
+form span{
+    color: var(--color-red-shade);
+}
+
+.form td{
+    padding-right: 15px;
+}
+
+form label{
+    font-size: 1.3rem;
+}
+
+form input{
+    height: 40px;
+    border: 1px solid var(--color-dark-gray);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form textarea{
+    width: 98%;
+    border: 1px solid var(--color-dark-gray);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form .btn{
+    margin:5% 40% 0;
+}
+
+form #email {
+    width: 98%;
+}
+
+form #fname {
+    width: 105%;
+}
+
+form #lname {
+    width: 105%;
+}
+
+/* footer section */
+
+footer .container{
+    background-color: var(--color-red-shade);
+    height: 250px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    color: var(--color-text-offwhite);
+}
+
+footer .container .left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .container .right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .container .right .socials{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .container .right p{
+    font-size: 1rem;
+}
+
+footer .container .center{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .container .center a{
+    text-decoration: none;
+    color: var(--color-text-offwhite);
+}
+
+footer .container .center a:hover{
+    text-decoration: none;
+    color: var(--color-black-shade);
 }
